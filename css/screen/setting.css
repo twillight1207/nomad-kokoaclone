@@ -1,0 +1,44 @@
+.settings-screen {
+    display: block;
+    height: 900px;
+}
+
+
+.settings-list:first-child {
+    padding-top: 70px;
+}
+
+.settings__setting {
+    padding: 20px 0;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings__setting i {
+    font-size: 18px;
+    margin-right: 20px;
+    opacity: 0.7;
+}
+
+.settings__setting:last-child {
+    border-bottom: var(--main-border);
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}
+
+.settings__setting-new {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+}
